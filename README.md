@@ -7,14 +7,14 @@ See the [project webpage](http://pages.bangor.ac.uk/~mas00a/activities/Leverhulm
 ## Data
 
 The following function plots the synthetic data set given as parameter:
-plot_data_set(<num = 1:7>)
+plot_data_set([1:7])
 
 To plot all data sets, run the script PlotAllData.
 
 
 ## Methods
 
-The function online_keyframe_summarisation(<data>, <method>, <params>) runs the online <method> on <data>, using the provided <params>.
+The function online_keyframe_summarisation([data], [method], [params]) runs the online [method] on [data], using the provided [params].
 
 The parameters required for each method are described both in the online_keyframe_summarisation function, and in each independent method function.
 
